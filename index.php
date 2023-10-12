@@ -12,22 +12,34 @@
         <form action="process.php" method="post">
             <ol>
                 <li>
-                    <p>What is 2 + 2?</p>
-                    <input type="radio" name="q1" value="1"> 3
-                    <input type="radio" name="q1" value="2"> 4
-                    <input type="radio" name="q1" value="3"> 5
+                    <p>What is the capital of Nigeria?</p>
+                    <input type="radio" name="q1" value="1"> Lagos
+                    <input type="radio" name="q1" value="2"> Abuja
+                    <input type="radio" name="q1" value="3"> lagos
                 </li>
                 <li>
-                    <p>Which planet is known as the Red Planet?</p>
-                    <input type="radio" name="q2" value="1"> Earth
-                    <input type="radio" name="q2" value="2"> Mars
-                    <input type="radio" name="q2" value="3"> Venus
+                    <p>What color is the Nigeria flag?</p>
+                    <input type="radio" name="q2" value="1"> Red, Blue, Green
+                    <input type="radio" name="q2" value="2"> Brown, Black, Orange
+                    <input type="radio" name="q2" value="3"> Green, White, Green
                 </li>
                 <li>
-                    <p>What is the capital of France?</p>
-                    <input type="radio" name="q3" value="1"> London
-                    <input type="radio" name="q3" value="2"> Berlin
-                    <input type="radio" name="q3" value="3"> Paris
+                    <p>Who is the current President of Nigeria?</p>
+                    <input type="radio" name="q3" value="1"> Bola Ahmed Tinubu
+                    <input type="radio" name="q3" value="2"> Mohammed Buhari
+                    <input type="radio" name="q3" value="3"> Goodluck Ebere Jonathan
+                </li>
+                <li>
+                    <p>What is 10 + 10?</p>
+                    <input type="radio" name="q4" value="1"> 20
+                    <input type="radio" name="q4" value="2"> 30
+                    <input type="radio" name="q4" value="3"> 50
+                </li>
+                <li>
+                    <p>When did Nigeria gain their independence?</p>
+                    <input type="radio" name="q5" value="1"> 1948
+                    <input type="radio" name="q5" value="2"> 2023
+                    <input type="radio" name="q5" value="3"> None of the above
                 </li>
             </ol>
             <input type="submit" value="Submit">
