@@ -28,7 +28,7 @@ foreach ($correctAnswers as $question => $correct) {
 <body>
     <div class="container">
         <h1>Test Results</h1>
-        <p>Your score: <?= $score ?>/3</p>
+        <p>Your score: <?= $score ?>/5</p>
         <a href="index.html">Take the test again</a>
     </div>
 </body>
